@@ -9,3 +9,12 @@ spring:
       idleTimeout: 600000
       connectionTimeout: 30000
       maxLifetime: 1800000
+
+
+
+mybatis:
+  typeAliasesPackage: jiao.springdemo.mybatis.entity
+  mapperLocations: classpath:mapper/*Mapper.xml
+logging:
+  level:
+    jiao.springdemo.mybatis.dao: debug
